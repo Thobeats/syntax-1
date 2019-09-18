@@ -34,10 +34,11 @@ if(count($_POST)>0) {
 			<div class="wrap-login100">
 				<form name="frmUser" method="post" action="" class="login100-form validate-form">
 					<span class="login100-form-title p-b-43" id="legend">
-						TEAM SYNTAX
+						<h3>TEAM SYNTAX</h3>
 					</span>
-					<span class="login100-form-title p-b-43">
-					You don't have account? <a href="signup.php">Sign Up</a>
+
+					<span class="login100-form-title p-b-43" id="sublegend">
+						<h5>Are you a member? Login</h5>
 					</span>
 
 					<div class="message"><?php if($message!="") { echo $message; } ?></div>
@@ -68,6 +69,11 @@ if(count($_POST)>0) {
 							Login
 						</button>
 					</div>
+					<br>
+					<br>
+					<span class="login100-form-title p-b-43">
+					<h6>You don't have account?</h6> <a href="signup.php">Sign Up</a>
+					</span>
 					
 				</form>
 

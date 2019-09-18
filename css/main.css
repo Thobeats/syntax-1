@@ -394,8 +394,14 @@ iframe {
 [ Social ]*/
 
 #legend {
-  color: #ff6584;
+  color: #6675df;
   font-weight: bold;
+}
+
+#sublegend {
+  color: #FF6584;
+  font-weight: bold;
+  margin-top: -25px;
 }
 
 .message {

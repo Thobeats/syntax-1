@@ -51,8 +51,9 @@ if(count($_POST)>0) {
 					<span class="login100-form-title p-b-43" id="legend">
 						TEAM SYNTAX
 					</span>
-					<span class="login100-form-title p-b-43">
-					Are you a member? <a href="index.php">Login</a>
+
+					<span class="login100-form-title p-b-43" id="sublegend">
+						<h5>Sign Up</h5>
 					</span>
 
 					<div class="message"><?php if($message!="") { echo $message; } ?></div>
@@ -105,6 +106,11 @@ if(count($_POST)>0) {
 							Sign Up
 						</button>
 					</div>
+					<br>
+					<br>
+						<span class="login100-form-title p-b-43">
+					<h6>Already a member?</h6> <a href="index.php">Login</a>
+					</span>
 					
 				</form>
 
