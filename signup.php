@@ -21,9 +21,7 @@ if(count($_POST)>0) {
 			]);
 
 			file_put_contents('data.json', json_encode($data));
-			session_start();
-			$_SESSION['login_user'] = $displayName;
-			header("Location: success.php");
+			header("Location: index.php");
 		}else{
 			$message = "password doesn't match";
 		}
